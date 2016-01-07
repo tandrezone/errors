@@ -1,6 +1,6 @@
 <?php
-include_once 'errors.interface.php';
-  class error implements errorInterface{
+
+  class error{
     private $errors;
     function __construct(){
 
@@ -19,8 +19,8 @@ include_once 'errors.interface.php';
      * [show mostra erros guardados]
      * @return [type] [description]
      */
-    public function show(){
-
+    static function show($msg, $type){
+      return array("error" => $msg, "type" => $type);
     }
   }
 ?>
