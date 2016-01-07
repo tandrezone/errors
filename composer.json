@@ -1,6 +1,6 @@
 {
    "name": "moonlight/errors",
-   "description": "Package to routing",
+   "description": "Package to errors",
    "keywords": ["bd", "errors", "moonlight"],
    "homepage": "https://github.com/tandrezone/errors",
    "license": "MIT",
